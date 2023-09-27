@@ -1,0 +1,75 @@
+.return-book-container {
+    display: flex;
+    width: 100%;
+}
+
+.return-book-card {
+    margin: 50px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.refresh-button {
+    align-self: flex-end;
+}
+
+.return-book-title {
+    text-align: center;
+}
+
+.return-book-table {
+    display: block;
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 100em;
+    max-width: 100%;
+    overflow-x: auto;
+    margin: auto;
+}
+
+.return-book-table thead {
+    background-color: chocolate;
+}
+
+.return-book-table th, .return-book-table td {
+    padding: 0.8rem;
+}
+
+.return-book-table td {
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.return-book-table tbody tr:hover {
+    background-color: #eee;
+}
+
+.return-book-expand {
+    width: 100%;
+}
+
+.return-edit-title {
+    text-align: center;
+}
+
+.return-edit-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+.return-edit-form .return-edit-textfield {
+    margin: 10px;
+}
+
+.return-edit-form .return-edit-button {
+    margin: 10px;
+}

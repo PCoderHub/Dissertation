@@ -1,0 +1,53 @@
+.borrowed-container {
+    display: flex;
+    width: 100%;
+}
+
+.borrowed-card {
+    margin: 50px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.borrowed-title {
+    text-align: center;
+}
+
+.borrowed-table {
+    display: block;
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 100em;
+    max-width: 100%;
+    overflow-x: auto;
+    margin: auto;
+}
+
+.borrowed-table thead {
+    background-color: chocolate;
+}
+
+.borrowed-table th, .borrowed-table td {
+    padding: 0.8rem;
+}
+
+.borrowed-table td {
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.borrowed-table tbody tr:hover {
+    background-color: #eee;
+}
+
+.borrowed-expand {
+    width: 100%;
+}

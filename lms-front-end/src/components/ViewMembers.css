@@ -1,0 +1,57 @@
+.view-member-container {
+    display: flex;
+    width: 100%;
+}
+
+.view-member-card {
+    margin: 50px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.view-member-title {
+    text-align: center;
+}
+
+.view-member-table {
+    display: block;
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 100em;
+    max-width: 100%;
+    overflow-x: auto;
+    margin: auto;
+}
+
+.view-member-table thead {
+    background-color: chocolate;
+}
+
+.view-member-table th, .view-member-table td {
+    padding: 0.8rem;
+}
+
+.view-member-table td {
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.view-member-table tbody tr:hover {
+    background-color: #eee;
+}
+
+.view-member-expand {
+    width: 100%;
+}
+
+.email {
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+.landing-container {
+    background-image: url(../LibrEase.png);
+    height: 100vh;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+}
+
+.bottom-button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 40px 10px;
+}

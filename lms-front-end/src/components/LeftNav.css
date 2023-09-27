@@ -1,0 +1,41 @@
+.leftnav {
+    height: 100vh;
+    width: 250px;
+    background-color: brown;
+}
+
+.leftnavlist {
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.leftnavlist .itemrow {
+    width: 100%;
+    height: 60px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftnavlist .itemrow:hover {
+    cursor: pointer;
+    background-color: rgb(172, 7, 7);
+}
+
+.leftnavlist #active {
+    background-color: rgb(172, 7, 7);
+}
+
+.itemrow #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.itemrow #title {
+    flex: 70%;
+}

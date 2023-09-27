@@ -1,0 +1,17 @@
+.home-container {
+    display: flex;
+    width: 100%;
+}
+
+.home-card {
+    margin: 50px;
+    width: 70%;
+}
+
+.home-title {
+    text-align: center;
+}
+
+.home-heading {
+    text-align: center;
+}

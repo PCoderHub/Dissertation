@@ -1,0 +1,21 @@
+.login-container {
+    margin: 0 35%;
+}
+
+.login-title {
+    text-align: center;
+}
+
+.loginform-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+.loginform-container .login-textfield {
+    margin: 10px;
+}
+
+.loginform-container .login-button {
+    margin: 10px;
+}

@@ -1,0 +1,53 @@
+.defaulter-container {
+    display: flex;
+    width: 100%;
+}
+
+.defaulter-card {
+    margin: 50px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.defaulter-title {
+    text-align: center;
+}
+
+.defaulter-table {
+    display: block;
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 100em;
+    max-width: 100%;
+    overflow-x: auto;
+    margin: auto;
+}
+
+.defaulter-table thead {
+    background-color: chocolate;
+}
+
+.defaulter-table th, .defaulter-table td {
+    padding: 0.8rem;
+}
+
+.defaulter-table td {
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.defaulter-table tbody tr:hover {
+    background-color: #eee;
+}
+
+.defaulter-expand {
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+.register-container {
+    margin: 1.5% 35%;
+}
+
+.register-title {
+    text-align: center;
+}
+
+.registerform-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+}
+
+.registerform-container .register-textfield {
+    margin: 2px;
+}
+
+.registerform-container .register-button {
+    margin: 2px;
+}

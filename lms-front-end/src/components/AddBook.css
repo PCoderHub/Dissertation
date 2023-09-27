@@ -1,0 +1,27 @@
+.add-book-container {
+    display: flex;
+    width: 100%;
+}
+
+.add-book-form {
+    margin: 50px;
+    width: 70%;
+}
+
+.add-book-title {
+    text-align: center;
+}
+
+.add-book-form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+.add-book-form-container .add-book-textfield {
+    margin: 10px;
+}
+
+.add-book-form-container .add-book-button {
+    margin: 10px;
+}

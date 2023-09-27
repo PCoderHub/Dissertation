@@ -1,0 +1,28 @@
+.fine-container {
+    display: flex;
+    width: 100%;
+}
+
+.fine-card {
+    margin: 50px;
+    width: 70%;
+}
+
+.fine-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fine-card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30%;
+}
+
+.fine-card-container .fine-card-element {
+    margin: 20px;
+}
+
+.fine-card-container .fine-button {
+    margin: 20px;
+}
